@@ -176,7 +176,7 @@ const TravelRecommender = () => {
             <div className="col-span-2 sm:col-span-1">
               <label className="block text-sm font-medium text-gray-700 mb-2">Visa Requirement</label>
               <div className="flex gap-2" style={{flexWrap:'wrap'}}>
-                {['Tourist', 'Business'].map((type) => (
+                {['Pre Apply', 'Visa-On-Arrival'].map((type) => (
                   <div
                     key={type}
                     className={`flex-1 px-4 py-2 rounded-lg cursor-pointer text-center transition-all ${
