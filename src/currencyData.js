@@ -1,0 +1,55 @@
+// currencyData.js
+export const currencies = [
+    { name: "United States Dollar", code: "USD" },
+    { name: "Chinese Yuan", code: "CNY" },
+    { name: "Indian Rupee", code: "INR" },
+    { name: "Indonesian Rupiah", code: "IDR" },
+    { name: "Pakistani Rupee", code: "PKR" },
+    { name: "Brazilian Real", code: "BRL" },
+    { name: "Nigerian Naira", code: "NGN" },
+    { name: "Bangladeshi Taka", code: "BDT" },
+    { name: "Russian Ruble", code: "RUB" },
+    { name: "Mexican Peso", code: "MXN" },
+    { name: "Japanese Yen", code: "JPY" },
+    { name: "Ethiopian Birr", code: "ETB" },
+    { name: "Philippine Peso", code: "PHP" },
+    { name: "Egyptian Pound", code: "EGP" },
+    { name: "Vietnamese Dong", code: "VND" },
+    { name: "Euro", code: "EUR" }, // Germany
+    { name: "Turkish Lira", code: "TRY" },
+    { name: "Iranian Rial", code: "IRR" },
+    { name: "Thai Baht", code: "THB" },
+    { name: "Euro", code: "EUR" }, // France
+    { name: "British Pound", code: "GBP" }, // UK
+    { name: "Euro", code: "EUR" }, // Italy
+    { name: "South African Rand", code: "ZAR" },
+    { name: "Tanzanian Shilling", code: "TZS" },
+    { name: "Burmese Kyat", code: "MMK" },
+    { name: "South Korean Won", code: "KRW" },
+    { name: "Colombian Peso", code: "COP" },
+    { name: "Kenyan Shilling", code: "KES" },
+    { name: "Euro", code: "EUR" }, // Spain
+    { name: "Argentine Peso", code: "ARS" },
+    { name: "Ugandan Shilling", code: "UGX" },
+    { name: "Ukrainian Hryvnia", code: "UAH" },
+    { name: "Sudanese Pound", code: "SDG" },
+    { name: "Iraqi Dinar", code: "IQD" },
+    { name: "Polish Zloty", code: "PLN" },
+    { name: "Canadian Dollar", code: "CAD" },
+    { name: "Moroccan Dirham", code: "MAD" },
+    { name: "Saudi Riyal", code: "SAR" },
+    { name: "Uzbekistani Som", code: "UZS" },
+    { name: "Peruvian Sol", code: "PEN" },
+    { name: "Angolan Kwanza", code: "AOA" },
+    { name: "Malaysian Ringgit", code: "MYR" },
+    { name: "Afghan Afghani", code: "AFN" },
+    { name: "Venezuelan Bolívar", code: "VES" },
+    { name: "Nepalese Rupee", code: "NPR" },
+    { name: "Yemeni Rial", code: "YER" },
+    { name: "Ghanaian Cedi", code: "GHS" },
+    { name: "Mozambican Metical", code: "MZN" },
+    { name: "North Korean Won", code: "KPW" },
+    { name: "New Taiwan Dollar", code: "TWD" },
+    // Add more as needed
+  ];
+  
