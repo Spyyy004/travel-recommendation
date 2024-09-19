@@ -142,34 +142,7 @@ function parseOpenAIResponse(responseText) {
 
 const sendEmailWithAttachment = async (email, itineraryFilePath) => {
     // Configure your email transporter (replace with your email provider's config)
-    // const transporter = nodemailer.createTransport({
-    //   service: 'gmail',
-    //   auth: {
-    //     user: process.env.EMAIL_USER, // Your email
-    //     pass: process.env.EMAIL_PASSWORD, // Your email password
-    //   },
-    // });
-
-    // let transporter = nodemailer.createTransport({
-    //     service: 'gmail',
-    //     secure:true,
-    //     port:465,
-    //     auth: {
-
-    //         type: 'OAuth2',
-
-    //         user: process.env.EMAIL,
-
-    //         clientId: process.env.CLIENTID,
-
-    //         clientSecret: process.env.CLIENTSECRET,
-
-    //         refreshToken: process.env.REFRESHTOKEN,
-
-    //         accessToken: process.env.ACCESSTOKEN,
-
-    //     }
-    //   });
+    
   
     const transporter = nodemailer.createTransport({
       host: "smtp.gmail.com",
