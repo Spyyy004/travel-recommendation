@@ -150,27 +150,36 @@ const sendEmailWithAttachment = async (email, itineraryFilePath) => {
     //   },
     // });
 
-    let transporter = nodemailer.createTransport({
-        service: 'gmail',
-        secure:true,
-        port:465,
-        auth: {
+    // let transporter = nodemailer.createTransport({
+    //     service: 'gmail',
+    //     secure:true,
+    //     port:465,
+    //     auth: {
 
-            type: 'OAuth2',
+    //         type: 'OAuth2',
 
-            user: process.env.EMAIL,
+    //         user: process.env.EMAIL,
 
-            clientId: process.env.CLIENTID,
+    //         clientId: process.env.CLIENTID,
 
-            clientSecret: process.env.CLIENTSECRET,
+    //         clientSecret: process.env.CLIENTSECRET,
 
-            refreshToken: process.env.REFRESHTOKEN,
+    //         refreshToken: process.env.REFRESHTOKEN,
 
-            accessToken: process.env.ACCESSTOKEN,
+    //         accessToken: process.env.ACCESSTOKEN,
 
-        }
-      });
+    //     }
+    //   });
   
+    const transporter = nodemailer.createTransport({
+      host: "smtp.gmail.com",
+      port: 465,
+      secure: true,
+      auth: {
+        user: process.env.EMAIL,
+        pass: process.env.PASSWORD
+      }
+    });
     // Setup email data
     const mailOptions = {
       from: process.env.EMAIL_USER,
